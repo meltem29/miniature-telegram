@@ -1,0 +1,15 @@
+<!-- kahvedetay.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Kahve Detayları</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ detay[1] }}</h5>
+            <p class="card-text">Tür: {{ detay[2] }}</p>
+            <p class="card-text">Yıl: {{ detay[3] }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<ul>
+    {% for kahve in kahveler %}
+    <li>{{ kahve[1] }} - {{ kahve[2] }} - {{ kahve[3] }}<br></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

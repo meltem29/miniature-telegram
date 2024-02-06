@@ -1,0 +1,11 @@
+<!-- base.html -->
+
+{% include "parts/_header.html" %}
+{% include "parts/_menu.html" %}
+
+<div class="main">
+    {% block content %}{% endblock %}
+    <p><a href="kahvesec">kahvesec</a></p>
+</div>
+
+{% include "parts/_footer.html" %}
